@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+html,body{
+    background: #333;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.Debit-card{
+    position: relative;
+    height: 240px;
+    width: 370px;
+    background: linear-gradient(#888,transparent);
+    border-radius: 12px;
+    border: 1px solid #fff;
+    box-shadow: 10px 20px 30px #111;
+}
+
+.Debit-card>h3{
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+}
+
+.Debit-card>img{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.Debit-card .username{
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.username>h3{
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logos{
+    position: absolute;
+    bottom: 120px;
+    right: 40px;
+}
+
+.logos>ion-icon{
+    color: #fff;
+    font-size: 43px;
+    transform: rotate(90deg);
+}
+
+.account-num{
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 7px;
+}
+
+.national{
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    color: #fff;
+    font-size: 8px;
+}
+
+.valid{
+    position: absolute;
+    bottom: 65px;
+    left: 40px;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* !------------backend----------- */
+
+.black-line{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+.white-line{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35px;
+    left: 45px;
+    width: 70%;
+    height: 40px;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
